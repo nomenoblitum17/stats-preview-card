@@ -48,9 +48,10 @@ body {
 
 .section-text h2 {
     text-align: left;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 0.9;
     margin-bottom: 25px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .section-text h2 b{
@@ -62,6 +63,9 @@ body {
     margin: 15px 0px;
     font-size: 15px;
     color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
 }
 
 .description {
@@ -74,14 +78,17 @@ body {
     letter-spacing: 1.5;
     text-transform: uppercase;
     font-size: 15px;
+    font-family: 'Inter', sans-serif;
 }
 
 .description p b {
     font-size: 20px;
     color: #fff;
+    font-family: 'Lexend deca', sans-serif;
+    font-weight: 700;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 750px) {
 
     body {
         background: hsl(233, 47%, 7%);
